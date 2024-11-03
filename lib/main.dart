@@ -33,7 +33,7 @@ class SplashPage extends StatelessWidget {
             height: double.infinity,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/Picture1.png'),
+                image: AssetImage('images/Poto1.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -45,14 +45,14 @@ class SplashPage extends StatelessWidget {
             child: Stack(
               children: [
                 Image.asset(
-                  'images/Picture6.png',
+                  'images/Poto6.png',
                   width: double.infinity,
                   height: MediaQuery.of(context).size.height * 0.2,
                   fit: BoxFit.fill,
                 ),
                 Positioned.fill(
                   child: Image.asset(
-                    'images/Picture8.png',
+                    'images/Poto8.png',
                     width: double.infinity,
                     height: MediaQuery.of(context).size.height * 0.2,
                     fit: BoxFit.fill,
@@ -60,7 +60,7 @@ class SplashPage extends StatelessWidget {
                 ),
                 Positioned.fill(
                   child: Image.asset(
-                    'images/Picture10.png',
+                    'images/Poto10.png',
                     width: double.infinity,
                     height: MediaQuery.of(context).size.height * 0.2,
                     fit: BoxFit.fill,
@@ -68,7 +68,7 @@ class SplashPage extends StatelessWidget {
                 ),
                 Positioned.fill(
                   child: Image.asset(
-                    'images/Picture12.png',
+                    'images/Poto12.png',
                     width: double.infinity,
                     height: MediaQuery.of(context).size.height * 0.2,
                     fit: BoxFit.fill,
@@ -76,7 +76,7 @@ class SplashPage extends StatelessWidget {
                 ),
                 Positioned.fill(
                   child: Image.asset(
-                    'images/Picture13.png',
+                    'images/Poto13.png',
                     width: double.infinity,
                     height: MediaQuery.of(context).size.height * 0.2,
                     fit: BoxFit.fill,
@@ -93,7 +93,7 @@ class SplashPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(
-                  'images/Picture2.png', // Gambar logo Aqua
+                  'images/Poto2.png', // Gambar logo Aqua
                   height: 220,
                 ),
                 SizedBox(height: 5),
@@ -141,7 +141,7 @@ class SplashPage extends StatelessWidget {
             left: 0,
             right: 0,
             child: Image.asset(
-              'images/Picture4.png',
+              'images/Poto4.png',
               height: MediaQuery.of(context).size.height * 0.3,
               fit: BoxFit.contain,
             ),
@@ -161,7 +161,7 @@ class MenuPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('images/Picture2.png', height: 60),
+            Image.asset('images/Poto2.png', height: 60),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
